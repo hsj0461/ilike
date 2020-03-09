@@ -1,0 +1,51 @@
+body {
+  margin: 0px;
+}
+#logoArea {
+  background-color: black;
+}
+.firstSection {
+  padding: 140px;
+  background-color: black;
+}
+.mainSection {
+  padding: 140px;
+}
+#ilikeLogo {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.headLine {
+  font-size: 90px;
+  font-weight: 900;
+  color: #ccfd34;
+  padding-top: 500px;
+  padding-bottom: 300px;
+  margin: 0px;
+  text-align: center;
+}
+.mainTitle {
+  font-size: 90px;
+  font-weight: 900;
+  color: #ccfd34;
+  margin: 0px;
+}
+.subText {
+  font-size: 30px;
+  font-weight: regular;
+  color: #ccfd34;
+  padding-bottom: 300px;
+  max-width: 700px;
+}
+#bg1 {
+  background-color: #cea6ad;
+}
+#bg2 {
+  background-color: #70aabc;
+}
+#bg3 {
+  background-color: black;
+}
+#bg4 {
+  background-color: #bc8770;
+}
