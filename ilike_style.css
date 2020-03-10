@@ -10,10 +10,14 @@ body {
 }
 .mainSection {
   padding: 140px;
+  padding-left: 180px;
 }
 #ilikeLogo {
   margin-top: 40px;
   margin-left: 20px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
 }
 .headLine {
   font-size: 90px;
