@@ -1,27 +1,39 @@
+@font-face {
+  font-family: arvo;
+  src: url("https://fonts.googleapis.com/css?family=Arvo:400,700&display=swap") format(ttf);
+}
 body {
   margin: 0px;
 }
 #logoArea {
   background-color: black;
 }
+#goTopBtn {
+  background-color: transparent;
+  border-color: transparent;
+}
 .firstSection {
-  padding: 140px;
+  padding: 10%;
   background-color: black;
 }
 .mainSection {
-  padding: 140px;
-  padding-left: 180px;
+  padding: 10%;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: 65% 1fr;
+}
+.sectionImage {
+  float: right;
 }
 #ilikeLogo {
-  margin-top: 40px;
-  margin-left: 20px;
   position: fixed;
-  top: 0px;
-  left: 0px;
+  top: 40px;
+  left: 40px;
 }
 .headLine {
+  font-family: arvo;
   font-size: 90px;
-  font-weight: 900;
+  font-weight: 700;
   color: #ccfd34;
   padding-top: 500px;
   padding-bottom: 300px;
@@ -29,14 +41,16 @@ body {
   text-align: center;
 }
 .mainTitle {
+  font-family: arvo;
   font-size: 90px;
-  font-weight: 900;
+  font-weight: 700;
   color: #ccfd34;
   margin: 0px;
 }
 .subText {
+  font-family: arvo;
   font-size: 30px;
-  font-weight: regular;
+  font-weight: 400;
   color: #ccfd34;
   padding-bottom: 300px;
   max-width: 700px;

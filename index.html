@@ -5,39 +5,66 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="ilike_style.css" />
     <link rel="icon" href="ico_ilike.png" />
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("goTopBtn")
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {
+        scrollFunction()
+      }
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block"
+        } else {
+          mybutton.style.display = "none"
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0
+        document.documentElement.scrollTop = 0
+      }
+    </script>
   </head>
 
   <body>
     <div id="logoArea">
-      <img id="ilikeLogo" src="logo_ilike.png" width="130px" />
+      <button id="goTopBtn">
+        <img id="ilikeLogo" onclick="topFunction()" src="logo_ilike.png" width="80px" />
+      </button>
     </div>
     <div class="firstSection">
       <h1 class="headLine">I'll tell you what I like.</h1>
     </div>
     <div class="mainSection" id="bg1">
-      <h1 class="mainTitle">I like...<br />collecting<br />cups and plates</h1>
-      <div class="subText">
-        <p>I like to collect a minimal and easy-to-use dish.</p>
-        <p>
-          It’s great to have a good meal on a simple plate,<br />and to have a cup of coffee in a
-          beautiful cup.
-        </p>
-      </div>
-      <!-- <div>
-        <img id="img_dish" src="dish.png" width="600px" />
-      </div>
       <div>
-        <img id="img_dish" src="glass.png" width="400px" />
-      </div> -->
+        <h1 class="mainTitle">I like...<br />collecting<br />cups and plates</h1>
+        <div class="subText">
+          <p>I like to collect a minimal and easy-to-use dish.</p>
+          <p>
+            It’s great to have a good meal on a simple plate,<br />and to have a cup of coffee in a
+            beautiful cup.
+          </p>
+        </div>
+      </div>
+      <div class="sectionImage">
+        <img id="img_dish" src="dish.png" width="80%" />
+        <img id="img_glass" src="glass.png" width="80%" />
+      </div>
     </div>
     <div class="mainSection" id="bg2">
-      <h1 class="mainTitle">I like...<br />well-made furniture<br />and atmospheric lighting.</h1>
-      <div class="subText">
-        <p>I love the nice furniture and lighting to match the mood of the house.</p>
-        <p>
-          Sit on the sofa at home on weekends, turn on the candles, play the music, and relax while
-          watching the sunny beds and furniture.
-        </p>
+      <div>
+        <h1 class="mainTitle">I like...<br />well-made furniture<br />and atmospheric lighting.</h1>
+        <div class="subText">
+          <p>I love the nice furniture and lighting to match the mood of the house.</p>
+          <p>
+            Sit on the sofa at home on weekends, turn on the candles, play the music, and relax
+            while watching the sunny beds and furniture.
+          </p>
+        </div>
       </div>
     </div>
     <div class="mainSection" id="bg3">
