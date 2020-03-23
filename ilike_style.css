@@ -1,9 +1,7 @@
-@font-face {
-  font-family: arvo;
-  src: url("https://fonts.googleapis.com/css?family=Arvo:400,700&display=swap") format(ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
 body {
   margin: 0px;
+  padding: 0px;
 }
 #logoArea {
   background-color: black;
@@ -24,39 +22,67 @@ body {
 }
 .sectionImage {
   float: right;
+  mix-blend-mode: hard-light;
+}
+#img_dish {
+  width: 110%;
+  margin-left: -20%;
+  padding-bottom: 15%;
+  transform: rotate(20deg);
+}
+#img_glass{
+  width: 80%;
+  transform: rotate(-10deg);
+}
+#img_chair{
+  width: 90%;
+  transform: rotate(10deg);
+}
+#img_lighting{
+  width: 70%;
 }
 #ilikeLogo {
   position: fixed;
   top: 40px;
-  left: 40px;
+  right: 40px;
 }
 .headLine {
-  font-family: arvo;
-  font-size: 90px;
-  font-weight: 700;
-  color: #ccfd34;
-  padding-top: 500px;
-  padding-bottom: 300px;
+  font-family: 'sen', sans-serif;
+  font-size: 120px;
+  font-weight: 800;
+  color: #34FD4B;
+  mix-blend-mode: screen;
+  padding-top: 300px;
+  padding-bottom: 200px;
   margin: 0px;
-  text-align: center;
+  text-align: left;
+}
+.headLineBG{
+  font-family: 'sen', sans-serif;
+  font-size: 120px;
+  font-weight: 800;
+  color: #E51D79;
+  mix-blend-mode: screen;
+  margin-top: -420px;
+  margin-left: 10px;
 }
 .mainTitle {
-  font-family: arvo;
-  font-size: 90px;
-  font-weight: 700;
-  color: #ccfd34;
+  font-family: 'sen', sans-serif;
+  font-size: 80px;
+  font-weight: 800;
+  color: #34FD4B;
   margin: 0px;
 }
 .subText {
-  font-family: arvo;
+  font-family: 'sen', sans-serif;
   font-size: 30px;
   font-weight: 400;
-  color: #ccfd34;
-  padding-bottom: 300px;
+  color: #34FD4B;
+  padding-bottom: 200px;
   max-width: 700px;
 }
 #bg1 {
-  background-color: #cea6ad;
+  background-color: #AF4356;
 }
 #bg2 {
   background-color: #70aabc;
