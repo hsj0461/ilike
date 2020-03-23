@@ -25,13 +25,13 @@ body {
   mix-blend-mode: hard-light;
 }
 #img_dish {
-  width: 110%;
+  width: 100%;
   margin-left: -20%;
   padding-bottom: 15%;
   transform: rotate(20deg);
 }
 #img_glass{
-  width: 80%;
+  width: 70%;
   transform: rotate(-10deg);
 }
 #img_chair{
