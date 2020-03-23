@@ -5,8 +5,7 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="ilike_style.css" />
     <link rel="icon" href="ico_ilike.png" />
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine" />
     <script>
       //Get the button
       var mybutton = document.getElementById("goTopBtn")
@@ -35,11 +34,35 @@
   <body>
     <div id="logoArea">
       <button id="goTopBtn">
-        <img id="ilikeLogo" onclick="topFunction()" src="ilikeLogo.png" width="80px" />
+        <img
+          id="ilikeLogo"
+          name="logo_nor"
+          onmouseover="
+            var target = document.querySelector('#ilikeLogo');
+            if(target.name === 'logo_nor'){
+              target.src = 'ilikeLogo_hover.png';
+              target.name = 'logo_hover'
+            } else { 
+              target.src = 'ilikeLogo.png'
+              target.name = 'logo_nor'
+          }"
+          onmouseout="
+          var target = document.querySelector('#ilikeLogo');
+          if(target.name === 'logo_hover'){
+            target.src = 'ilikeLogo.png';
+            target.name = 'logo_nor'
+          } else { 
+            target.src = 'ilikeLogo_hover.png'
+            target.name = 'logo_hover'
+          }"
+          onclick="topFunction()"
+          src="ilikeLogo.png"
+          width="80px"
+        />
       </button>
     </div>
     <div class="firstSection">
-      <h1 class="headLine">Hello.<br>I am SangJin. &#128059;</h1>
+      <h1 class="headLine">Hello.<br />I am SangJin. &#128059;</h1>
       <h1 class="headLine">I'll tell you what I like.</h1>
     </div>
     <div class="mainSection" id="bg1">
@@ -54,8 +77,8 @@
         </div>
       </div>
       <div class="sectionImage">
-        <img id="img_dish" src="dish.png"/>
-        <img id="img_glass" src="glass.png"/>
+        <img id="img_dish" src="dish.png" />
+        <img id="img_glass" src="glass.png" />
       </div>
     </div>
     <div class="mainSection" id="bg2">
@@ -70,8 +93,8 @@
         </div>
       </div>
       <div class="sectionImage">
-        <img id="img_chair" src="chair.png"/>
-        <img id="img_lighting" src="lighting.png"/>
+        <img id="img_chair" src="chair.png" />
+        <img id="img_lighting" src="lighting.png" />
       </div>
     </div>
     <div class="mainSection" id="bg3">
