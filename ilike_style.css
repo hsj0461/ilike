@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap");
 body {
   margin: 0px;
   padding: 0px;
@@ -30,16 +30,22 @@ body {
   padding-bottom: 15%;
   transform: rotate(20deg);
 }
-#img_glass{
+#img_glass {
   width: 70%;
   transform: rotate(-10deg);
 }
-#img_chair{
+#img_chair {
   width: 90%;
   transform: rotate(10deg);
 }
-#img_lighting{
+#img_lighting {
   width: 70%;
+}
+#img_bottle {
+  width: 70%;
+}
+#img_cheers {
+  width: 80%;
 }
 #ilikeLogo {
   position: fixed;
@@ -47,48 +53,48 @@ body {
   right: 40px;
 }
 .headLine {
-  font-family: 'sen', sans-serif;
+  font-family: "sen", sans-serif;
   font-size: 120px;
   font-weight: 800;
-  color: #34FD4B;
+  color: #34fd4b;
   mix-blend-mode: screen;
   padding-top: 300px;
   padding-bottom: 200px;
   margin: 0px;
   text-align: left;
 }
-.headLineBG{
-  font-family: 'sen', sans-serif;
+.headLineBG {
+  font-family: "sen", sans-serif;
   font-size: 120px;
   font-weight: 800;
-  color: #E51D79;
+  color: #e51d79;
   mix-blend-mode: screen;
   margin-top: -420px;
   margin-left: 10px;
 }
 .mainTitle {
-  font-family: 'sen', sans-serif;
+  font-family: "sen", sans-serif;
   font-size: 80px;
   font-weight: 800;
-  color: #34FD4B;
+  color: #34fd4b;
   margin: 0px;
 }
 .subText {
-  font-family: 'sen', sans-serif;
+  font-family: "sen", sans-serif;
   font-size: 30px;
   font-weight: 400;
-  color: #34FD4B;
+  color: #34fd4b;
   padding-bottom: 200px;
   max-width: 700px;
 }
 #bg1 {
-  background-color: #AF4356;
+  background-color: #af4356;
 }
 #bg2 {
   background-color: #70aabc;
 }
 #bg3 {
-  background-color: black;
+  background-color: #23182b;
 }
 #bg4 {
   background-color: #bc8770;
